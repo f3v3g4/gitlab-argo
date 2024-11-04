@@ -52,7 +52,7 @@ spec:
     - name: ssh
       port: 22
       targetPort: 22
-      nodePort: 3022   # Cambia este puerto a uno válido, por ejemplo, 3022 a 30022
+      nodePort: 30230 # Cambia este puerto a uno válido, por ejemplo, 3022 a 30022
   selector:
     app: gitlab
 ---
